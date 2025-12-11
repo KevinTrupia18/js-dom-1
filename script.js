@@ -6,14 +6,15 @@ Al click del bottone, la lampadina dovrà accendersi (dovremo quindi utilizzare 
 
 
 
-//  cerco nella pagina html l'elemento con l'id= "accensione"
+//  cerco nella pagina html e prendo  l'elemento con l'id= "accensione" lo trova e lo assegna alla costante button 
 const button = document.getElementById("accensione");
 
-// Prendo l'elemento che voglio cambiare in questo caso l'img
+// cerco e  Prendo l'elemento  in questo caso l'img con id=lampadina  e faccio la stessa cosa della riga precedente 
 
 const lampadina = document.getElementById("lampadina");
 
-// registro cosa succede quando l'utente clicca il bottone 
+// registro cosa succede quando l'utente clicca il bottone. quando l'elemento button riceve un click, esegui la funzione 
+// addEventListener registra per il click del bottone
  
 button.addEventListener("click", () => {
 
